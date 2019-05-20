@@ -42,6 +42,9 @@ object Build : BuildType({
         script {
             scriptContent = "dir /w"
         }
+        script {
+            scriptContent = "echo 1\r\necho 2\r\necho 3"
+        }
     }
 
     triggers {
